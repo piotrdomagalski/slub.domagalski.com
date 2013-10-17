@@ -1,0 +1,83 @@
+#cover1 {
+	background: url(../img/cover1.jpg) no-repeat #e8e8e8;
+	@include background-size(cover);
+	h1, p {
+		// line-height: $xlarge;
+		color: #333;
+	}
+	.valign {
+		height: 600px;
+	}
+	height: 600px;
+	.features p {
+		line-height: $med;
+		@include font-size($med);
+	}
+}
+
+h1.xlarge {
+	font-weight: $font-weight-bold;
+	white-space: nowrap;
+	@include respond(portrait-tablets) {
+		@include font-size($xxxlarge);
+	}
+
+	span {
+		display: block;
+		font-weight: $font-weight-regular;
+		line-height: 0;
+		@include font-size($large);
+	}
+}
+
+#cover2 {
+	background: url(../img/cover2.jpg) no-repeat #e8e8e8;
+	@include background-size(cover);
+	height: 500px;
+}
+
+#cover3 {
+	background: url(../img/cover3.jpg) no-repeat #e8e8e8;
+	@include background-size(cover);
+	height: 500px;
+}
+
+#cover4 {
+	background: url(../img/cover4.jpg) no-repeat #e8e8e8;
+	@include background-size(cover);
+	height: 500px;
+}
+
+.wrapper {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.info-box {
+	text-align: center;
+	img {
+		padding-bottom: 25px;
+	}
+}
+
+.faq-box {
+	h2 {
+		padding-bottom: $larger;
+	}
+	.faq-header {
+		text-align: center;
+		img {
+			//max-height: 300px;
+			padding-bottom: 50px;
+		}
+	}
+	.faq {
+		.question {
+			font-weight: $font-weight-semibold;
+			margin-bottom: 0;
+		}
+		.answer {
+			margin-bottom: $med;
+		}
+	}
+}

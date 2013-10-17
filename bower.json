@@ -1,0 +1,16 @@
+{
+	"name": "Our wedding info webpage",
+	"version": "0.0.1",
+	"authors": [
+		"Piotr Domagalski <piotr@domagalski.com>",
+		"Joanna Jenek <joanna.jenek@gmail.com>"
+	],
+	"main": "index.html",
+	"homepage": "http://www.slub.domagalski.com",
+	"private": true,
+	"dependencies": {
+		"gumby": "latest",
+		"gumby-parallax": "latest",
+		"gumby-fittext": "latest"
+	}
+}
