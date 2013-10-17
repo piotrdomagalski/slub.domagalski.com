@@ -3,7 +3,7 @@
 	@include background-size(cover);
 	h1, p {
 		// line-height: $xlarge;
-		color: #333;
+		color: #202020;
 	}
 	.valign {
 		height: 600px;
@@ -27,11 +27,14 @@
 	}
 }
 
-#transport {
-	.valign {
-		height: 350px;
-	}
-}
+// #transport {
+// 	min-height: 10em;
+//    display: table-cell;
+//    vertical-align: middle;
+// 	.valign {
+// 		height: 350px;
+// 	}
+// }
 
 h1.xlarge {
 	font-weight: $font-weight-bold;
@@ -85,7 +88,6 @@ h1.xlarge {
 	.faq-header {
 		text-align: center;
 		img {
-			//max-height: 300px;
 			padding-bottom: 50px;
 		}
 	}
