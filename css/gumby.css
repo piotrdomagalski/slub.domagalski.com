@@ -2697,6 +2697,12 @@ table.rounded thead th, table.rounded thead td, table.rounded caption + tbody tr
 #cover1 .valign { height: 600px; }
 #cover1 .features p { line-height: 18px; font-size: 18px; font-size: 1.125rem; }
 
+#wedding .valign { height: 350px; }
+
+#reception .valign { height: 350px; }
+
+#transport .valign { height: 350px; }
+
 h1.xlarge { font-weight: 700; white-space: nowrap; }
 @media only screen and (max-width: 768px) { h1.xlarge { font-size: 68px; font-size: 4.25rem; } }
 h1.xlarge span { display: block; font-weight: 400; line-height: 0; font-size: 26px; font-size: 1.625rem; }
