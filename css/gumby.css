@@ -2283,9 +2283,10 @@ img { -ms-interpolation-mode: bicubic; }
 
 #cover1 { background: url(../img/cover1.jpg) no-repeat #e8e8e8; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 #cover1 .valign { height: 600px; }
-#cover1 h1, #cover1 p { color: #202020; }
+#cover1 h1, #cover1 p { color: #101010; }
+@media only screen and (max-width: 767px) { #cover1 h1, #cover1 p { background-color: #a0a0a0; background-color: rgba(160, 160, 160, 0.9); padding: 15px; } }
 #cover1 h1.xlarge { font-weight: 700; white-space: nowrap; padding-top: 0.05em; padding-bottom: 0.05em; }
-@media only screen and (max-width: 768px) { #cover1 h1.xlarge { font-size: 68px; font-size: 4.25rem; } }
+@media only screen and (max-width: 767px) { #cover1 h1.xlarge { font-size: 68px; font-size: 4.25rem; } }
 
 #cover2 { background: url(../img/cover2.jpg) no-repeat #e8e8e8; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 500px; }
 

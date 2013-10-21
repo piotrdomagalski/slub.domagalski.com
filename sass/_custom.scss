@@ -5,14 +5,17 @@
 		height: 600px;
 	}
 	h1, p {
-		color: #202020;
+		color: #101010;
 		@include respond(all-phones) {
+			background-color: rgb(160, 160, 160);
+			background-color: rgba(160, 160, 160, 0.9);
+			padding: 15px;
 		}
 	}
 	h1.xlarge {
 		font-weight: $font-weight-bold;
 		white-space: nowrap;
-		@include respond(portrait-tablets) {
+		@include respond(all-phones) {
 			@include font-size($xxxlarge);
 		}
 		padding-top: 0.05em;
