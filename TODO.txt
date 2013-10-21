@@ -1,8 +1,0 @@
-vertical alignment
-
-
-master head (font?)
-
-
-scaling issues (small sizes)
-performance (reduce size)
