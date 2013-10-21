@@ -1,6 +1,6 @@
 {
 	"name": "Our wedding info webpage",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"authors": [
 		"Piotr Domagalski <piotr@domagalski.com>",
 		"Joanna Jenek <joanna.jenek@gmail.com>"
@@ -10,7 +10,6 @@
 	"private": true,
 	"dependencies": {
 		"gumby": "latest",
-		"gumby-parallax": "latest",
-		"gumby-fittext": "latest"
+		"gumby-parallax": "latest"
 	}
 }
