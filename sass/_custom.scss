@@ -1,32 +1,22 @@
 #cover1 {
 	background: url(../img/cover1.jpg) no-repeat #e8e8e8;
 	@include background-size(cover);
-	h1, p {
-		// line-height: $xlarge;
-		color: #202020;
-	}
 	.valign {
 		height: 600px;
 	}
-	height: 600px;
-	.features p {
-		line-height: $med;
-		@include font-size($med);
+	h1, p {
+		color: #202020;
+		@include respond(all-phones) {
+		}
 	}
-}
-
-h1.xlarge {
-	font-weight: $font-weight-bold;
-	white-space: nowrap;
-	@include respond(portrait-tablets) {
-		@include font-size($xxxlarge);
-	}
-
-	span {
-		display: block;
-		font-weight: $font-weight-regular;
-		line-height: 0;
-		@include font-size($large);
+	h1.xlarge {
+		font-weight: $font-weight-bold;
+		white-space: nowrap;
+		@include respond(portrait-tablets) {
+			@include font-size($xxxlarge);
+		}
+		padding-top: 0.05em;
+		padding-bottom: 0.05em;
 	}
 }
 
@@ -48,9 +38,6 @@ h1.xlarge {
 	height: 500px;
 }
 
-.wrapper {
-}
-
 .info-box {
 	text-align: center;
 	padding-top: 50px;
@@ -66,7 +53,7 @@ h1.xlarge {
 .info-box-addon {
 	text-align: center;
 	padding-top: 50px;
-	padding-bottom: 50px;	
+	padding-bottom: 50px;
 	@include respond(all-phones) {
 		padding-top: 0;
 	}
