@@ -15,27 +15,6 @@
 	}
 }
 
-#wedding {
-	.valign {
-		height: 350px;
-	}
-}
-
-#reception {
-	.valign {
-		height: 350px;
-	}
-}
-
-// #transport {
-// 	min-height: 10em;
-//    display: table-cell;
-//    vertical-align: middle;
-// 	.valign {
-// 		height: 350px;
-// 	}
-// }
-
 h1.xlarge {
 	font-weight: $font-weight-bold;
 	white-space: nowrap;
@@ -70,28 +49,41 @@ h1.xlarge {
 }
 
 .wrapper {
-	padding-top: 50px;
-	padding-bottom: 50px;
 }
 
 .info-box {
 	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	img {
 		padding-bottom: 25px;
 	}
+	p {
+		text-align: center;
+	}
 }
 
-.faq-box {
+.info-box-addon {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;	
+	@include respond(all-phones) {
+		padding-top: 0;
+	}
+}
+
+#faq-box {
+	padding-top: 50px;
 	h2 {
 		padding-bottom: $larger;
 	}
-	.faq-header {
+	#faq-header {
 		text-align: center;
 		img {
 			padding-bottom: 50px;
 		}
 	}
-	.faq {
+	#faq-content {
 		.question {
 			font-weight: $font-weight-semibold;
 			margin-bottom: 0;
@@ -100,4 +92,23 @@ h1.xlarge {
 			margin-bottom: $med;
 		}
 	}
+}
+
+/* Flexible iFrame */
+.Flexible-container {
+	position: relative;
+	padding-bottom: 75%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.Flexible-container iframe,
+.Flexible-container object,
+.Flexible-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
