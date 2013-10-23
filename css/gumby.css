@@ -2294,6 +2294,12 @@ img { -ms-interpolation-mode: bicubic; }
 
 #cover4 { background: url(../img/cover4.jpg) no-repeat #e8e8e8; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 500px; }
 
+.map { padding-top: 100px !important; }
+@media only screen and (max-width: 767px) { .map { padding-top: 0px !important; } }
+
+#transport-info { padding-top: 160px !important; }
+@media only screen and (max-width: 767px) { #transport-info { padding-top: 50px !important; } }
+
 .info-box { text-align: center; padding-top: 50px; padding-bottom: 50px; }
 .info-box img { padding-bottom: 25px; }
 .info-box p { text-align: center; }

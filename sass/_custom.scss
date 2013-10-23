@@ -42,6 +42,20 @@
 	height: 500px;
 }
 
+.map {
+	padding-top: 100px !important;
+	@include respond(all-phones) {
+		padding-top: 0px !important;
+	}	
+}
+
+#transport-info {
+	padding-top: 160px !important;
+	@include respond(all-phones) {
+		padding-top: 50px !important;
+	}	
+}
+
 .info-box {
 	text-align: center;
 	padding-top: 50px;
